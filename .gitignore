@@ -1,2 +1,4 @@
 .vagrant/
 *.log
+/buildroot-*/
+/buildroot-*.tar.xz
