@@ -1,0 +1,10 @@
+#!/bin/sh
+case "$1" in
+  start)
+    if command -v hello >/dev/null 2>&1; then
+      echo "[init] running myhello..."
+      /usr/bin/hello
+    fi
+    ;;
+esac
+exit 0
